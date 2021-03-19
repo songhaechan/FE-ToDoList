@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Something</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="input.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main class="container">
+      <!-- CLOCK -->
+      <div class="js-clock clock">
+        <h1 class="clock">00:00</h1>
+      </div>
+
+      <!-- GREETINGS -->
+      <form class="js-form form">
+        <div class="omrs-input-group">
+          <label class="omrs-input-underlined">
+            <input id="name" required />
+            <span class="omrs-input-label">What is your name?</span>
+          </label>
+        </div>
+      </form>
+      <h4 class="js-greetings grettings"></h4>
+      <button class="js-rename">RENAME</button>
+
+      <!-- <form class="js-form form">
+        <input type="text" placeholder="What is your name?" />
+      </form> -->
+
+      <!-- TODO -->
+      <form class="js-toDoForm">
+        <div class="omrs-input-group">
+          <label class="omrs-input-underlined">
+            <input id="name" required />
+            <span class="omrs-input-label">Write a to do</span>
+          </label>
+        </div>
+      </form>
+      <!-- <form class="js-toDoForm">
+        <input type="text" placeholder="Write a to do" />
+      </form> -->
+      <ul class="js-toDoList"></ul>
+    </main>
+    <script src="clock.js"></script>
+    <script src="gretting.js"></script>
+    <script src="todo.js"></script>
+  </body>
+</html>
